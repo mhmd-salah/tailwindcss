@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="output.css">
-  <title>Document</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="p-6 bg-slate-100 w-full">
+      <div class="flex justify-between items-center">
+        <h2 
+        class="font-bold capitalize text-sky-500 text-lg">logo</h2>
+        <div class="flex items-center gap-4">
+          <input 
+        class="
+        peer 
+        focus:outline-none 
+        px-2 
+        py-1 
+        rounded-md 
+        border 
+      focus:invalid:border-red-500
+      invalid:text-red-500
+      valid:border-green-500
+      valid:text-green-500
+        hidden
+        sm:block
+        " type="email" placeholder="enter your email" required />
+        <span class="hidden peer-invalid:block text-red-500">email invaild</span>
+        <span class="hidden peer-valid:block text-green-500">email vaild</span>
+        </div>
+        <ul class="flex gap-[10px]">
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer focus:ring">About</li>
+        </ul>
+      </div>
+    </header>
+    
+    <ul class="
+      *:text-sky-600
+      *:p-5
+    ">
+      <li>js</li>
+      <li>css</li>
+      <li>html</li>
+    </ul>
+  </body>
 </html>
