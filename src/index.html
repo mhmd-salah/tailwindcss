@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
+    <script src="main.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <header class="p-6 bg-slate-100 w-full">
+    <header class="p-6 bg-slate-50 w-full shadow-sm">
       <div class="flex justify-between items-center">
         <h2 
         class="font-bold capitalize text-sky-500 text-lg">logo</h2>
@@ -26,6 +27,7 @@
       valid:text-green-500
         hidden
         sm:block
+        placeholder:text-slate-500
         " type="email" placeholder="enter your email" required />
         <span class="hidden peer-invalid:block text-red-500">email invaild</span>
         <span class="hidden peer-valid:block text-green-500">email vaild</span>
@@ -36,14 +38,7 @@
         </ul>
       </div>
     </header>
-    
-    <ul class="
-      *:text-sky-600
-      *:p-5
-    ">
-      <li>js</li>
-      <li>css</li>
-      <li>html</li>
-    </ul>
+    <div class="grid taplet:grid-cols-3"></div>
+    <div class="hidden md:block text-teal">this</div>
   </body>
 </html>
