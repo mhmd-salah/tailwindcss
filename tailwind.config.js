@@ -3,7 +3,8 @@ module.exports = {
   content: ["./src/**/index.html"],
   theme: {
     backgroundSize:{
-      "50":"50%"
+      "50":"50%",
+      "cover":"cover"
     },
     container: {
       center: true,
