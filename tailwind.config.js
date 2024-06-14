@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/index.html"],
   theme: {
+    backgroundSize:{
+      "50":"50%"
+    },
     container: {
       center: true,
       padding: "18px",
