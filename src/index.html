@@ -7,30 +7,23 @@
     <script src="main.js" defer></script>
     <title>Document</title>
   </head>
-  <body>
-    <header class="p-6 bg-slate-50 w-full shadow-sm">
-      <div class="flex justify-between items-center">
-        <h2 
-        class="font-bold capitalize text-sky-500 text-lg">logo</h2>
+  <body class="*:box-border">
+    <header class="py-6 bg-slate-50 w-full shadow-sm">
+      <div class="container mx-auto flex justify-between items-center">
+        <h2 class="font-bold capitalize text-sky-500 text-lg">logo</h2>
         <div class="flex items-center gap-4">
-          <input 
-        class="
-        peer 
-        focus:outline-none 
-        px-2 
-        py-1 
-        rounded-md 
-        border 
-      focus:invalid:border-red-500
-      invalid:text-red-500
-      valid:border-green-500
-      valid:text-green-500
-        hidden
-        sm:block
-        placeholder:text-slate-500
-        " type="email" placeholder="enter your email" required />
-        <span class="hidden peer-invalid:block text-red-500">email invaild</span>
-        <span class="hidden peer-valid:block text-green-500">email vaild</span>
+          <input
+            class="peer focus:outline-none px-2 py-1 rounded-md border focus:invalid:border-red-500 invalid:text-red-500 valid:border-green-500 valid:text-green-500 hidden sm:block placeholder:text-slate-500"
+            type="email"
+            placeholder="enter your email"
+            required
+          />
+          <span class="hidden peer-invalid:block text-red-500"
+            >email invaild</span
+          >
+          <span class="hidden peer-valid:block text-green-500"
+            >email vaild</span
+          >
         </div>
         <ul class="flex gap-[10px]">
           <li class="cursor-pointer">Home</li>
@@ -38,7 +31,19 @@
         </ul>
       </div>
     </header>
-    <div class="grid taplet:grid-cols-3"></div>
-    <div class="hidden md:block text-teal">this</div>
+    <main class="bg-[url('/1350469.png')] bg-cover">
+      <div
+        class="container borde h-[calc(100vh-81.6px)] py-10 grid place-content-center *:text-center *:captialize"
+      >
+        <h1 class="text-6xl text-white font-bold">hello world!</h1>
+        <p class="w-[540px] text-2xl text-white mt-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Perspiciatis, modi hic. Quam consequuntur perferendis ipsam
+          perspiciatis, exercitationem rem ab ut ad consequatur molestiae
+          itaque, mollitia eligendi, recusandae maxime dicta beatae!
+        </p>
+      </div>
+    </main>
   </body>
 </html>
+<!--  &shy; -->
