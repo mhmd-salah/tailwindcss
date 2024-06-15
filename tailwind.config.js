@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "bg-landing": "url('/1350469.png')",
+        "landing": "url('/landing.jpg')",
       },
       // spacing: {
       //   "010": "1px",

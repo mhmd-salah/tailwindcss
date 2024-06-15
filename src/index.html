@@ -10,33 +10,34 @@
   <body class="*:box-border">
     <header class="py-6 bg-slate-50 w-full shadow-sm">
       <div class="container mx-auto flex justify-between items-center">
-        <h2 class="font-bold capitalize text-sky-500 text-lg">logo</h2>
+        <h2 class="font-bold capitalize text-sky-500 text-2xl">logo</h2>
         <div class="flex items-center gap-4">
           <input
-            class="peer focus:outline-none px-2 py-1 rounded-md border focus:invalid:border-red-500 invalid:text-red-500 valid:border-green-500 valid:text-green-500 hidden sm:block placeholder:text-slate-500"
+            class="peer focus:outline-none px-2 py-1 rounded-md border focus:invalid:border-red-500 invalid:text-red-500 valid:border-sky-500 valid:text-sky-500 hidden sm:block placeholder:text-slate-500"
             type="email"
             placeholder="enter your email"
+            value="mohamed.ozzx@gmail.com"
             required
           />
-          <span class="hidden peer-invalid:block text-red-500"
-            >email invaild</span
+          <span class="hidden sm:peer-invalid:block text-red-500"
+            >Email Invaild</span
           >
-          <span class="hidden peer-valid:block text-green-500"
-            >email vaild</span
+          <span class="hidden sm:peer-valid:block text-sky-500"
+            >Email Vaild</span
           >
         </div>
-        <ul class="flex gap-[10px]">
-          <li class="cursor-pointer">Home</li>
-          <li class="cursor-pointer focus:ring">About</li>
+        <ul class="flex gap-[10px] *:transition">
+          <li class="cursor-pointer hover:text-sky-400">Home</li>
+          <li class="cursor-pointer hover:text-sky-400">About</li>
         </ul>
       </div>
     </header>
-    <main class="bg-[url('/landing.jpg')] bg-cover">
+    <main class="bg-landing bg-cover">
       <div
-        class="container borde h-[calc(100vh-81.6px)] py-10 grid place-content-center *:text-center *:captialize"
+        class="container borde h-[calc(100vh-81.6px)] py-10 grid place-content-center *:text-center *:capitalize"
       >
-        <h1 class="text-6xl text-white font-bold">hello world!</h1>
-        <p class="w-auto md:w-[540px]  text-2xl text-white mt-5">
+        <h1 class="text-6xl text-sky-500 font-bold">hello world!</h1>
+        <p class="w-auto md:min-w-min text-2xl text-white mt-5 leading-10">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Perspiciatis, modi hic. Quam consequuntur perferendis ipsam
           perspiciatis, exercitationem rem ab ut ad consequatur molestiae
@@ -44,16 +45,28 @@
         </p>
       </div>
     </main>
-    <ul class="list-none *:text-center *:p-6 divide-y divide-dashed grid grid-cols-1 sm:divide-x  sm:grid-cols-2 md:grid-cols-4 ">
+    <ul
+      class="list-none *:text-sky-500 *:font-bold *:text-center *:capitalize *:p-6 divide-y divide-dashed grid grid-cols-1 sm:divide-x sm:grid-cols-2 md:grid-cols-4"
+    >
       <li>element</li>
       <li>element</li>
       <li>element</li>
       <li>element</li>
     </ul>
+    <!-- grid section  -->
+    <div class=" container my-10 grid gap-7 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 *:bg-sky-400 *:text-center *:py-6 *:text-white *:text-2xl">
+      <div class="sm:col-span-2">Item</div>
+      <div>Item</div>
+      <div class="">Item</div>
+      <div class="">Item</div>
+      <div class="">Item</div>
+      <div class="sm:col-span-2">Item</div>
+
+    </div>
   </body>
 </html>
-<!--  &shy; -->
 
+<!--  &shy; -->
 <!-- divide-x -->
 <!-- divide-y -->
 <!-- to create border between  element -->
